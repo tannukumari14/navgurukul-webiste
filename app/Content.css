@@ -1,0 +1,103 @@
+.bca-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbdfd9;
+    height: 140px;
+    padding:40px 40px;
+}
+
+.image-1{
+    width: 130px;
+}
+
+.image-2{
+    width: 200px;
+    position: relative;
+    right: 100px;
+}
+
+.apply-button{
+    height: 48px;
+    padding: 0px 20px;
+    color: white;
+    background-color: orangered;
+    border-radius: 3%;
+    position: relative;
+    top: 20px;
+}
+
+h2{
+    position: relative;
+    right: 200px;
+    top: 20px;
+}
+
+.content {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px; 
+    text-align: center; 
+  }
+  
+.title {
+    font-size: 2rem; 
+    font-weight: bold; 
+    margin-bottom: 16px; 
+}
+
+.highlight {
+    color: orangered; 
+}
+
+.bg-highlight {
+    background-color: orangered;
+    color: white; 
+    padding: 0.2em 0.5em;
+}
+
+.description {
+    color: black; 
+    margin-top: 16px; 
+}
+
+.video-container {
+    max-width: 800px; 
+    margin: 0 auto;   
+    border: 2px solid #ccc;
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+  
+.video {
+    display: block; 
+    aspect-ratio: 16/9; 
+}
+  
+
+.percentage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+  
+.percentage h1 {
+    flex: 1 1 22%;
+    margin-bottom: 0.5rem;
+}
+  
+.percentage h3 {
+    flex: 1 1 22%;
+    color: #555;
+}
+    
+
+.councils{
+    display: flex;
+    justify-content: center;
+}
+
+.Councils-gallery{
+    margin-left: 50px;
+    
+}

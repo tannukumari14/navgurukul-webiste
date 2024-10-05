@@ -1,0 +1,89 @@
+.council-container {
+    width: 1000px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.council-header {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: orangered;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.context {
+    text-align: center;
+    font-size: 28px;
+    color: red;
+}
+
+.context-p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.post-intro {
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+.col1 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.post {
+    font-size: 18px;
+    color: #34495e;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    width: 45%;
+}
+
+.post-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-1, .post-2 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 48%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img-pic {
+    width: 200px;
+    height: 200px; 
+    border-radius: 0; 
+    display: block;
+    margin: 0 auto 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.post-description {
+    font-size: 18px;
+    color: #7f8c8d;
+    text-align: center;
+}
