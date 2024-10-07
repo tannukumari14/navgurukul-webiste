@@ -101,3 +101,72 @@ h2{
     margin-left: 50px;
     
 }
+
+.schools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 150px;
+}
+
+.school {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.school-item {
+    height: 360px;
+    width: 35%; 
+    margin: 20px;
+}
+
+.img {
+    height: 320px;
+    width: 100%;
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.school-item h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    text-align: right; 
+}
+
+.school-item h3 {
+    font-size: 1.2em;
+    color: grey;
+    text-align: center;
+}
+
+.social-sites {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+}
+
+.social-items {
+    margin: 20px;
+}
+
+h3, h4{
+    text-align: left;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px;
+}
+

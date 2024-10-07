@@ -1,0 +1,42 @@
+.campus {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.campus-heading {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: black;
+}
+
+.campuses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px; 
+}
+
+.campus-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campus-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.campus-card h2 {
+    font-size: 1.2rem;
+    padding: 10px;
+    color: #333;
+}
