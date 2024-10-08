@@ -1,0 +1,13 @@
+.video-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    gap: 20px; 
+}
+  
+.video {
+    flex: 1; 
+    height: 315px; 
+    min-width: 250px; 
+}
+  

@@ -1,7 +1,9 @@
 import "./Content.css";
 import Link from "next/link";
-import Campuses from "./Campus.js"
+import Campuses from "./Campus"
 import KeyFacilties from "./KeyFacilties"
+// import Carousel from "./Carousel"
+import AlumniStorie from "./AlumniStories"
 
 const Content = () => {
   return (
@@ -254,6 +256,8 @@ const Content = () => {
           </div>
           <Campuses />
           <KeyFacilties/>
+          {/* <Carousel/> */}
+          <AlumniStorie/>
       </div>
     </>
   );
