@@ -1,0 +1,61 @@
+.facilites {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.img-text {
+    display: flex;
+    align-items: flex-start; /* Align items to the start vertically */
+    margin: auto;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navgurukul {
+    width: 500px;
+    height: 500px;
+}
+
+.img-text img {
+    height: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    list-style-type: none; 
+    text-align: left; 
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+li img {
+    margin-right: 10px; 
+    width: 20px; 
+    height: 20px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px; 
+}

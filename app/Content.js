@@ -1,6 +1,7 @@
 import "./Content.css";
 import Link from "next/link";
 import Campuses from "./Campus.js"
+import KeyFacilties from "./KeyFacilties"
 
 const Content = () => {
   return (
@@ -252,6 +253,7 @@ const Content = () => {
 
           </div>
           <Campuses />
+          <KeyFacilties/>
       </div>
     </>
   );
