@@ -1,0 +1,58 @@
+/* .media-carousel {
+    text-align: center;
+}
+
+.carousel-track-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    list-style: none;
+}
+
+.carousel-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.current-slide img {
+    display: block;
+    margin: 0 auto;
+} */
+
+.media-carousel {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+  }
+  
+  .media-item {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .media-item img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .media-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }

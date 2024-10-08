@@ -3,6 +3,7 @@ import Link from "next/link";
 import Campuses from "./Campus"
 import KeyFacilties from "./KeyFacilties"
 // import Carousel from "./Carousel"
+// import Supporters from "./Supporters"
 import AlumniStorie from "./AlumniStories"
 
 const Content = () => {
@@ -257,6 +258,7 @@ const Content = () => {
           <Campuses />
           <KeyFacilties/>
           {/* <Carousel/> */}
+          {/* <Supporters/> */}
           <AlumniStorie/>
       </div>
     </>
