@@ -71,7 +71,7 @@ const Content = () => {
       {/* Councils Section */}
       <div className="councils">
         <Link href="/Councils" passHref>
-          <button>Councils</button>
+          <button>News</button>
         </Link>
         <Link href="/CouncilsGallery" passHref>
           <button className="Councils-gallery">Councils Gallery</button>

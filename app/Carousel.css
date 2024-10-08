@@ -1,25 +1,24 @@
 .Carousel{
     background-color: #DEDFE4;
 }
-/* Carousel.css */
 
 .carousel-container {
     height: 500px;
     width: 1000px;
-  }
+}
   
-  .carousel-image {
+.carousel-image {
     height: 500px;
     width: 33.33%;
     object-fit: cover;
-  }
+}
   
-  .carousel-inner {
+.carousel-inner {
     display: flex;
-  }
+}
   
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    background-color: black; /* You can customize the color if needed */
-  }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; 
+}
   

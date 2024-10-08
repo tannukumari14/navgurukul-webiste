@@ -38,21 +38,21 @@
     width: 80%;
     margin: auto;
     padding: 40px 0;
-  }
+}
   
-  .media-item {
+.media-item {
     text-align: center;
     padding: 20px;
-  }
+}
   
-  .media-item img {
+.media-item img {
     width: 100%;
     border-radius: 8px;
     object-fit: cover;
-  }
+}
   
-  .media-item p {
+.media-item p {
     margin-top: 10px;
     font-size: 16px;
     color: #333;
-  }
+}
